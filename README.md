@@ -1,10 +1,12 @@
 # 🌐 URL Shortener 🔗  
 Turn **long, messy links** into sleek, shareable short URLs – with user accounts, secure auth, and full control.
 
-![Made with Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen)
+![Express.js](https://img.shields.io/badge/Express.js-Fast%20%26%20Minimal-black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![EJS](https://img.shields.io/badge/EJS-Templating-orange)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-ff69b4)
+
 
 ---
 
