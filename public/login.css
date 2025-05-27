@@ -1,0 +1,116 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card Styling */
+.login-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: slideIn 0.5s ease;
+}
+
+/* Inputs */
+.login-card input {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.login-card input::placeholder {
+    color: #d1d1d1;
+}
+
+/* Button */
+.login-card button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-card button:hover {
+    background-color: #2563eb;
+    transform: scale(1.03);
+}
+
+.signup-redirect {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.signup-redirect a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.signup-redirect a:hover {
+    text-decoration: underline;
+    color: #25eb6e;
+}
+
+/* Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .login-card {
+        padding: 30px 20px;
+    }
+
+    .login-card input,
+    .login-card button {
+        font-size: 14px;
+    }
+}
