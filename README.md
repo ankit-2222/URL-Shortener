@@ -2,7 +2,7 @@
 Turn **long, messy links** into sleek, shareable short URLs – with user accounts, secure auth, and full control.
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen)
-![Express.js](https://img.shields.io/badge/Express.js-Fast%20%26%20Minimal-black)
+![Express.js](https://img.shields.io/badge/Express.js-Fast%20%26%20Minimal-E7BDC8)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success)
 ![EJS](https://img.shields.io/badge/EJS-Templating-orange)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-ff69b4)
